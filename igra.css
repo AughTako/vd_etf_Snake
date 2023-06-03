@@ -1,0 +1,12 @@
+
+#mapa {
+    empty-cells: show;
+    background-color: mediumpurple;
+}
+td {
+    height: 40px;
+    width: 40px;
+    border: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+}

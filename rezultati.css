@@ -1,0 +1,9 @@
+table{
+    empty-cells: show;
+    width: 100%;
+    text-align: center;
+}
+td{
+    font-size: large;
+    border: solid;
+}

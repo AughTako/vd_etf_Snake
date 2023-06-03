@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uputstvo za igricu</title>
+    <link rel="stylesheet" href="uputstvo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="uputstvo.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Uputstvo za igranje igrice Zmijica</h1>
+                <hr>
+                <h4>Zmijica se kreće pomoću strelica na tastaturi</h4>
+                <ul>
+                    <li>Strelica na gore  -  zmijica se krece polje na gore</li>
+                    <li>Strelica na dole  -  zmijica se krece polje na dole</li>
+                    <li>Strelica na levo  -  zmijica se krece polje na levo</li>
+                    <li>Strelica na desno -  zmijica se krece polje na desno</li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <input type="radio" name="izbor" value="20" checked> Velika mapa (20x20) <br>
+                <input type="radio" name="izbor" value="15"> Manja mapa (15x15) <br>
+                <input type="radio" name="izbor" value="10"> Najmanja mapa (10x10) <br>
+                <hr>
+                <h5>Izaberite tezinu igre</h5>
+                <p>Tezina varira od 1 - najlakse do 3 - najteže, slider pomerite na željenu težinu i izaberite veličinu mape i pritisnite dugme 'Započni igru' da bi ste započeli igru!</p>
+                <input type="range" min="1" max="3" value="1" id="sliderTezine">
+                <hr>
+                <input type="button" class="btn btn-info" value="Zapocni Igru!" id="zapocniIgru">
+                <input type="button" class="btn btn-warning" value="Rezultati" id="rezultatiIgre">
+                <hr>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
